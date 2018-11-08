@@ -1,0 +1,31 @@
+server:
+    port: 8080
+    servlet:
+         context-path: /api
+#配置多环境
+
+spring:
+     profiles:
+         active: dev
+
+# 自定义配置类
+appKey: 1
+appSecret: 1
+bucket: 1yun
+endPoint: https://www.aliyun.com
+
+#数据库配置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
